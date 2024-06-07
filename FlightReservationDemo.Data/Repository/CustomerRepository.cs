@@ -12,9 +12,6 @@ namespace FlightReservationDemo.Data.Repository
     { 
         public int Add(Customer entity)
         {
-            var last = DBContext._customerStore.OrderByDescending(r => r.Id).FirstOrDefault();
-            int lastId = last == null ? 0 : last.Id;
-            entity.Id = lastId + 1;
             DBContext._customerStore.Add(entity);
             return entity.Id;
         }

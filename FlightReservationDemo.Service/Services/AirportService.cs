@@ -15,5 +15,11 @@ namespace FlightReservationDemo.Service.Services
         {
             return airportRepository.GetAll();
         }
+
+        public void CreateAirport(Airport entity)
+        {
+            airportRepository.Add(entity);
+        }
+
     }
 }
