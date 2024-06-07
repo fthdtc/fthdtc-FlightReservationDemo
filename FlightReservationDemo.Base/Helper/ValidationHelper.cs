@@ -38,7 +38,7 @@ namespace FlightReservationDemo.Base.Helper
         {
             if (string.IsNullOrEmpty(number)) return false;
 
-            if (number.Length > 10 && number.Length < 8) return false;
+            if (number.Length > 10 || number.Length < 8) return false;
 
             return true;
         }

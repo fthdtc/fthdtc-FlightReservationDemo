@@ -19,9 +19,9 @@ namespace FlightReservationDemo.Service.Services
 
         public bool AddCustomer(Customer entity)
         {
-            if (entity.CustomerEmail.ValidateEmail()) throw new Exception("email is invalid!");
-            if (entity.CustomerMobileNumber.ValidateGSMNumber()) throw new Exception("GSM number is invalid!");
-            if (entity.Address.ValidateAdress()) throw new Exception("Adress is invalid!");
+            if (!entity.CustomerEmail.ValidateEmail()) throw new Exception("email is invalid!");
+            if (!entity.CustomerMobileNumber.ValidateGSMNumber()) throw new Exception("GSM number is invalid!");
+            if (!entity.Address.ValidateAdress()) throw new Exception("Adress is invalid!");
 
             customerRepository.Add(entity);
             return true;
