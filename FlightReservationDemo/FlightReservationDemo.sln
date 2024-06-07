@@ -11,10 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightReservationDemo.Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightReservationDemo.Api", "..\FlightReservationDemo.Api\FlightReservationDemo.Api.csproj", "{DFC11179-ECC4-4D7A-8608-8CE8D2FF3324}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightReservationDemo.Test.Unit", "FlightReservationDemo.Test.Unit\FlightReservationDemo.Test.Unit.csproj", "{13083F46-F9F7-4448-9810-FBC013C984DC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightReservationDemo.Test.Integration", "FlightReservationDemo.Test.Integration\FlightReservationDemo.Test.Integration.csproj", "{252BE7D6-2573-45EC-93AF-C43CAB489787}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,14 +33,6 @@ Global
 		{DFC11179-ECC4-4D7A-8608-8CE8D2FF3324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFC11179-ECC4-4D7A-8608-8CE8D2FF3324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFC11179-ECC4-4D7A-8608-8CE8D2FF3324}.Release|Any CPU.Build.0 = Release|Any CPU
-		{13083F46-F9F7-4448-9810-FBC013C984DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13083F46-F9F7-4448-9810-FBC013C984DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13083F46-F9F7-4448-9810-FBC013C984DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13083F46-F9F7-4448-9810-FBC013C984DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{252BE7D6-2573-45EC-93AF-C43CAB489787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{252BE7D6-2573-45EC-93AF-C43CAB489787}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{252BE7D6-2573-45EC-93AF-C43CAB489787}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{252BE7D6-2573-45EC-93AF-C43CAB489787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

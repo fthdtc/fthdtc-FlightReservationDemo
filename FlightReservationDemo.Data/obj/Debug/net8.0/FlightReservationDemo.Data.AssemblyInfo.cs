@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlightReservationDemo.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5c2e42d6023ca3fda4d58e3037c683d6a8ca0dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84f9b2f93a7263843d52b505c6f4b8a85646733a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlightReservationDemo.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlightReservationDemo.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
