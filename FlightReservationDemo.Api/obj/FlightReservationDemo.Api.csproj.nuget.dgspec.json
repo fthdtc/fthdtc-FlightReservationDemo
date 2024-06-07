@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Api\\FlightReservationDemo.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Api\\FlightReservationDemo.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Api\\FlightReservationDemo.Api.csproj",
+        "projectName": "FlightReservationDemo.Api",
+        "projectPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Api\\FlightReservationDemo.Api.csproj",
+        "packagesPath": "C:\\Users\\TCFDARTICI\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TCFDARTICI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://parsdev.turkcell.com.tr/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Data\\FlightReservationDemo.Data.csproj": {
+                "projectPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Data\\FlightReservationDemo.Data.csproj"
+              },
+              "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Service\\FlightReservationDemo.Service.csproj": {
+                "projectPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Service\\FlightReservationDemo.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Base\\FlightReservationDemo.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Base\\FlightReservationDemo.Base.csproj",
+        "projectName": "FlightReservationDemo.Base",
+        "projectPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Base\\FlightReservationDemo.Base.csproj",
+        "packagesPath": "C:\\Users\\TCFDARTICI\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TCFDARTICI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://parsdev.turkcell.com.tr/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Data\\FlightReservationDemo.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Data\\FlightReservationDemo.Data.csproj",
+        "projectName": "FlightReservationDemo.Data",
+        "projectPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Data\\FlightReservationDemo.Data.csproj",
+        "packagesPath": "C:\\Users\\TCFDARTICI\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TCFDARTICI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://parsdev.turkcell.com.tr/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Service\\FlightReservationDemo.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Service\\FlightReservationDemo.Service.csproj",
+        "projectName": "FlightReservationDemo.Service",
+        "projectPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Service\\FlightReservationDemo.Service.csproj",
+        "packagesPath": "C:\\Users\\TCFDARTICI\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TCFDARTICI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://parsdev.turkcell.com.tr/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Base\\FlightReservationDemo.Base.csproj": {
+                "projectPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Base\\FlightReservationDemo.Base.csproj"
+              },
+              "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Data\\FlightReservationDemo.Data.csproj": {
+                "projectPath": "D:\\Dev\\doc\\my_project\\source-code\\github-repository\\fthdtc-FlightReservationDemo\\FlightReservationDemo.Data\\FlightReservationDemo.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

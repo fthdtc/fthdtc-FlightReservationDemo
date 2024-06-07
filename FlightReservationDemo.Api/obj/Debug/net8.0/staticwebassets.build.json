@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "K2fvZbIfTwukbwskGmUR3wrWCHtqXNIDDFwSjg49gQM=",
+  "Source": "FlightReservationDemo.Api",
+  "BasePath": "_content/FlightReservationDemo.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

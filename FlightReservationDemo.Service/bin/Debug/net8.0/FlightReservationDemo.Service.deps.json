@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FlightReservationDemo.Service/1.0.0": {
+        "dependencies": {
+          "FlightReservationDemo.Base": "1.0.0",
+          "FlightReservationDemo.Data": "1.0.0"
+        },
+        "runtime": {
+          "FlightReservationDemo.Service.dll": {}
+        }
+      },
+      "FlightReservationDemo.Base/1.0.0": {
+        "runtime": {
+          "FlightReservationDemo.Base.dll": {}
+        }
+      },
+      "FlightReservationDemo.Data/1.0.0": {
+        "runtime": {
+          "FlightReservationDemo.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FlightReservationDemo.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlightReservationDemo.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlightReservationDemo.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
